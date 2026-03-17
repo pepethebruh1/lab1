@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: right;
+    background-image:url(pattern-twin-corners-shapes.png);
+    
+
+    
+}
+h1{
+    text-align: right;
+    font-family:sans-serif ;
+    color: red;
+}
+em{
+    color: green;
+
+}
+.wrapper{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@font-face {
+    font-family:'Roboto' ;
+    src: url(Roboto-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: 'Caveat';
+    src: url(Caveat-VariableFont_wght.ttf);
+}
+strong {
+    font-family: 'Caveat';
+}
+article {
+  border: 5px solid #2E9AFF;
+}
+article {
+  border-top-left-radius: 2em 50%;
+  border-top-right-radius: 2em 50%;
+  border-bottom-right-radius: 2em 50%;
+  border-bottom-left-radius: 2em 50%;
+}
+article {
+  margin: 1em;
+  margin: -3px;
+}
+article {
+  background-color: #161616;
+  padding: 55px 40px;
+}
+
