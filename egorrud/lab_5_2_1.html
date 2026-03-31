@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Использование CSS Grid при построении колонок</title>
+    <style type="text/css">
+        .wrapper {
+            display: grid; 
+            grid-template-columns: 200px 600px 200px;
+            width: 1000px;
+            margin: 0 auto; 
+            gap: 0; 
+        }
+
+        .column {
+            padding: 10px;
+            box-sizing: border-box; 
+        }
+        #left {
+            background: #ccf;
+        }
+
+        #center {
+            background: #cfc;
+        }
+
+        #right {
+            background: #fcc;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex; gap: 10px;"></div>
+    <div class="wrapper">
+        <div id="left" class="column">left
+left
+left
+left
+left</div>
+        <div id="center" class="column">
+            Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Составитель вдали наш предупредила вскоре, гор алфавит свое текста жизни великий одна семантика она, до пор эта дал ты имени свою злых рекламных он о. Дорогу коварных строчка курсивных толку всемогущая, жизни гор, рыбного, своего ipsum проектах переписали. Продолжил сих жизни щеке рукописи великий если маленькая себя, несколько использовало города взгляд ipsum своего, образ заглавных решила домах. Это если своих грамматики, власти текста над точках речью рукописи рот одна на берегу пустился ipsum, скатился ведущими живет имеет? Океана, страну о продолжил всеми но ее проектах напоивший на берегу даже, реторический назад которое.
+        </div>
+        <div id="right" class="column">right
+right
+right
+right</div>
+    </div>
+</body>
+</html>
